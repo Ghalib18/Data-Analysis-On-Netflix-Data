@@ -1,87 +1,132 @@
 # Data-Analysis-On-Netflix-Data
 
-🎬 Netflix Movie Data Analysis
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg" width="120"> </p>
-📌 Overview
+🎬✨ Netflix Movie Data Analysis — Complete Insight Report
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg" width="130"> </p> <p align="center"> <b>📊 Data • 🎥 Movies • 📈 Insights • 🤖 Analytics</b> </p>
+🚀 Project Overview
 
-This project analyzes a dataset of 9,000+ Netflix movies to answer 5 critical business questions using Python, Pandas, NumPy, Matplotlib, and Seaborn.
-The analysis focuses on popularity, genre distribution, votes, and yearly film production — exactly as asked in the task scenario.
+This project analyzes a dataset of 9,000+ Netflix movies to uncover meaningful insights using Python and various data visualization tools.
+The analysis focuses on genres, popularity, votes, and production trends to answer five real business questions mentioned in the task.
 
-All analysis is performed inside the notebook:
+All analysis is done inside:
 👉 movie.ipynb
 
-📁 Dataset Description
+📁 Dataset Features
 
-The dataset contains columns such as:
+Your Netflix dataset includes:
 
-* Title
+🎭 Genre
 
-* Genre
+⭐ Popularity
 
-* Popularity
+🗳 Vote Count
 
-* Vote Count
+🎬 Movie Titles
 
-* Release Year
+📅 Release Year
 
-* Language
+🌍 Country
 
-* Country
+🗣 Language
 
-* Overview, Description
+📝 Overview / Description
 
-* ID and Metadata
+❓🔍 Business Questions Solved
+1️⃣ 🎭 Most Frequent Genre on Netflix
+<div align="center">
+📊 Genre Distribution Chart
+<img src="download.png" width="650" style="border-radius: 10px;">
 
-❓ Business Questions Solved
+Figure: Count of movies by genre in the Netflix dataset
 
-As mentioned in the notebook, the project answers these five real-world Netflix business questions:
+</div>
+📝 Insight
 
-1️⃣ What is the most frequent genre of movies released on Netflix?
+✔ Drama is the most dominant genre
+✔ Followed by Comedy, Action, and Thriller
+✔ Least common genres include TV Movie, Documentary, and Western
 
-Analysis includes genre counts and visualization using Seaborn’s countplot.
+2️⃣ ⭐ Which Genres Have the Highest Votes?
 
-2️⃣ Which genres have the highest votes?
+Movies were grouped by genre and sorted by vote count.
 
-Using vote count grouped by genre, identifying genres with the strongest audience engagement.
+📝 Insight
 
-3️⃣ Which movie got the highest popularity? What’s its genre?
+✔ Genres with the highest votes show better audience engagement
+✔ Top-voted genres often overlap with most frequent genres
+✔ Voting patterns indicate viewer preferences on Netflix
 
-Finding the top popular movie based on the popularity metric and analyzing its category.
+3️⃣ 🔥 Which Movie Has the Highest Popularity? What’s Its Genre?
 
-4️⃣ Which movie got the lowest popularity? What’s its genre?
+Using idxmax() on the popularity column, the highest-popularity movie and its genre were extracted.
 
-Detecting the least popular movie and evaluating its genre trends.
+📝 Insight
 
-5️⃣ Which year has the most filmed movies?
+✔ This movie stands out significantly compared to others
+✔ Helps identify blockbuster-level interest on Netflix
 
-Identifying the year with the highest number of Netflix movie releases using aggregation.
+4️⃣ 🧊 Which Movie Has the Lowest Popularity? What’s Its Genre?
+
+Using idxmin(), the least popular movie was identified.
+
+📝 Insight
+
+✔ This reveals underperforming content
+✔ Useful for identifying genres with low traction
+
+5️⃣ 📅 Which Year Has the Most Filmed Movies?
+
+Movies were grouped by release year, and counts were plotted.
+
+📝 Insight
+
+✔ Certain years show a spike in movie releases
+✔ Indicates content production trends over time
 
 📊 Visualizations Included
 
-The notebook contains:
+Your notebook contains:
 
-* Genre Count Plot
+🎭 Genre Count Plot
 
-* Votes-by-Genre Bar Chart
+⭐ Votes by Genre
 
-* Popularity Distribution
+🔥 Popularity Distribution
 
-* Highest & Lowest Popularity Movie Analysis
+🎬 Highest & Lowest Popularity Movies
 
-* Release Year Frequency Plot
+📅 Release Year Frequency Plot
 
-All visualizations are color-themed and labeled clearly.
+All plots are styled cleanly using Seaborn and Matplotlib.
 
-🧰 Technology Stack
+🧰 Tech Stack
+Tool	Purpose
+🐍 Python	Analysis & Logic
+📦 Pandas	Data Cleaning
+🔢 NumPy	Numerical Calculations
+🎨 Seaborn	Visualization
+📊 Matplotlib	Plot Styling
+📝 Jupyter	Interactive Notebook
+🏃‍♂️💻 How to Run the Project
+git clone https://github.com/Ghalib18/Data-Analysis-On-Netflix-Data
+cd Data-Analysis-On-Netflix-Data
+jupyter notebook
 
-* Python 3
 
-* Pandas
+Open movie.ipynb → Run all cells.
 
-* NumPy
+📝✨ Key Insights Summary
 
-* Matplotlib
+🎭 Netflix favors certain genres heavily (Drama, Comedy, Action).
 
-* Seaborn
+⭐ User votes favor popular mainstream genres.
 
-* Jupyter Notebook
+🔥 The highest-popularity movie stands out strongly.
+
+🧊 The least popular movie helps identify weak content.
+
+📅 Netflix movie production increased in key years.
+
+🏁 Conclusion
+
+This project provides a clean, data-driven view into Netflix’s movie catalog using structured analysis and visual storytelling.
+It answers all five business questions with clear insights, supporting data-focused decision-making.
